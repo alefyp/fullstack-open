@@ -1,2 +1,3 @@
 # FSopen
-Deep Dive Into Modern Web Development - Full stack open 2020 - Helsinki University
+Resolving exercises from Deep Dive Into Modern Web Development - Full stack open 2020
+The University of Helsinki
