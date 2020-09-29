@@ -1,0 +1,15 @@
+browser->server: HTTP GET notes
+server->browser: HTML Code
+browser->server: HTTP GET main.css
+server->browser: main.css
+note left of browser: Browser displays styled html code
+browser->server: HTTP GET main.js
+server->browser: main.js
+note left of browser: Browser executes js-code
+browser->server: HTTP GET data.json
+server->browser: data.json content
+note left of browser: Browser renders notes to display
+browser->server: HTTP POST new_note     
+server->browser: status code 302
+note left of browser: Brwoser reloads the notes page
+browser->server: HTTP GET request notes
